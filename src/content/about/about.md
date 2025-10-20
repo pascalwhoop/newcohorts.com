@@ -1,113 +1,144 @@
 ---
 title: "About New Cohorts"
-description: "Learn about New Cohorts - a 6-week friendship program in Amsterdam"
+description: "Learn about New Cohorts - a 6-week friendship program in Amsterdam for newcomers"
 ---
 
 # What is New Cohorts?
 
-A 6-week friendship program where the same group of 12 people meets twice weekly for curated
-activities designed to build genuine, lasting connections.
+A structured 6-week program where **the same group** meets weekly to do varied activities together.
+No awkward one-off meetups. No endless swiping. Just consistent time with real people building
+genuine friendships.
 
-Think university dorm life, but for adults who are serious about building their Amsterdam community.
+Think of it like your university cohort — but for people new to Amsterdam.
 
-## Program Structure
+## How It Works
 
-**Organized Events (Saturdays)** Curated by us - activities designed for maximum connection and
-bonding
+**Same people, every week, for 6 weeks**
 
-**Peer Events (Thursdays)**  
-Chosen by your cohort - personal passions and interests shared with the group
+- Consistent time together with the same people creates the conditions for lasting friendships
+- Small cohorts of 12-20 people (big enough to meet diverse people, small enough that everyone
+  actually connects)
+- Weekly commitment ensures the bonding conditions that most friendship apps lack
 
-## Key Features
+**Research shows that forming close friendships requires:**
 
-- **Same Group**: 12 people, every week. No more random encounters or one-off conversations.
-- **Curated Activities**: Thoughtfully designed experiences that actually help people connect and
-  bond.
-- **Weekly Commitment**: Twice weekly commitment. Clear schedule, clear expectations, clear results.
+1. **Proximity** — being in the same place
+2. **Repeated contact** — seeing each other regularly
+3. **Shared experiences** — doing things together
 
----
-
-# Meet the Founders
-
-We're Pascal and Patrick, two Amsterdam expats who experienced the same challenge: building
-meaningful friendships in a new city.
-
-After trying every app and meetup, we realized the problem wasn't Amsterdam—it was the approach.
-Real friendships need consistency, shared experiences, and time.
-
-So we created New Cohorts: the university dorm experience for adults who are serious about building
-their Amsterdam community.
-
-## Our Mission
-
-To make Amsterdam feel like home by helping people build the deep, lasting friendships that
-transform a city from a place you live to a place you belong.
+Our 6-week cohort model creates all three conditions intentionally.
 
 ---
 
-# Who is this for?
+# The 6-Week Program
 
-## Eligibility Criteria
+## Week 1: Kickoff Dinner
 
-✅ **Recently relocated to Amsterdam**  
-You moved here within the last 3 months and want to build real social connections
-
-✅ **Ages 25-35**  
-You're in the sweet spot of building your adult life and community
-
-✅ **Ready to commit**  
-You can commit to two sessions per week for 6 weeks to build lasting friendships
-
-## Perfect For
-
-People who want more than just casual acquaintances. If you're looking for a place to belong and
-build meaningful connections, New Cohorts is designed for you.
-
----
-
-# The 6-week Program
-
-## Week 1: Kickoff & Open Space
-
-Meet your cohort and co-create the program together.
-
-**Week 1 Activities:**
-
-- **Saturday:** Kickoff dinner with deep conversation starters
-- **Thursday:** Open space session - propose and vote on peer events
+Deep conversation starter — people need to get comfortable. Group dinner at a casual restaurant with
+introductions and expectation-setting.
 
 ## Weeks 2-5: Building Bonds
 
-Alternating between our curated activities and your peer-chosen events.
+Variety of interactivity types balancing 1-on-1s, group casual activities, and deep conversations.
 
 **Sample Activities:**
 
-**Organized (Saturdays):**
+- Creative workshops (pottery, painting, cocktail making)
+- Active socials (bowling, mini golf, board games)
+- Cultural exploration (museums, walking tours, food market crawls)
+- Collaborative challenges (escape rooms, cooking classes, pub quizzes)
 
-- Cooking class (Dutch recipes)
-- Escape room challenge
-- Museum visit + discussion
-- Pottery workshop
+## Week 6: Closing Celebration
 
-**Peer Events (Thursdays):**
+Reflect on the experience and exchange contacts for ongoing friendships.
 
-- Coffee walk (best spots)
-- Board game night
-- Bike ride through Amsterdam
-- Language exchange
+**Sample closing events:**
 
-## Week 6: Celebration & Future
+- Picnic in Vondelpark
+- Potluck dinner
+- Drinks at a cozy bar
 
-Reflect on the journey and commit to ongoing friendships.
+---
 
-**Week 6 Activities:**
+# Is This For You?
 
-- **Saturday:** Graduation celebration with reflection
-- **Thursday:** Future planning - ongoing friendship commitments
+## You might be:
 
-## Program Details
+- Recently moved to Amsterdam with few local connections
+- Working remotely and missing organic social opportunities
+- In a life transition and wanting to build a fresh social circle
+- Tired of surface-level meetups that never lead anywhere
 
-- **€120** - Total for 6 weeks
-- **Saturdays** - Organized events
-- **Thursdays** - Peer events
-- **12 people** - Maximum per cohort
+## You should be:
+
+- Genuinely interested in making lasting friendships
+- Open to trying new activities and meeting diverse people
+- Ready to commit to 6 consecutive weeks
+- Available for weekly Wednesday evenings
+
+---
+
+# Why This Works
+
+This isn't just another meetup app or random social event. It's a **structured approach to solving
+the real problem: building lasting friendships takes time and consistency.**
+
+Real friendships emerge from:
+
+- **Forced consistency** — weekly commitment creates bonding conditions
+- **Shared experience** — diverse activities foster genuine connections
+- **Time together** — 6 weeks allows relationships to deepen naturally
+
+---
+
+# What You'll Get
+
+✅ A curated schedule of 6 diverse activities  
+✅ A committed group of 12-20 people (vetted for genuine interest)  
+✅ WhatsApp group to coordinate and stay connected  
+✅ Opportunity to explore Amsterdam with locals and fellow newcomers  
+✅ Real friendships that continue after the 6 weeks end
+
+---
+
+# Practical Details
+
+**When:** Wednesday evenings, 7:00-9:30 PM  
+**Where:** Various locations around Amsterdam (all easily accessible)  
+**Cost:** €99-120 for 6 weeks (activities range from free to €20-30 per session)  
+**Group size:** 12-20 participants maximum  
+**Language:** English (all activities are English-friendly)
+
+---
+
+# About Us
+
+We moved to Amsterdam ourselves and experienced firsthand how challenging it is to build genuine
+friendships as an adult in a new city. We tried the apps, went to the meetups, and still felt like
+something was missing.
+
+That's when we realized: **consistency is the missing ingredient.**
+
+So we're creating the friendship program we wish existed when we first arrived.
+
+---
+
+# Frequently Asked Questions
+
+**What if I can't make one of the weeks?**  
+We understand life happens. We ask that you commit to at least 5 out of 6 weeks.
+
+**Do I need to be new to Amsterdam?**  
+No! While we designed this for newcomers, anyone looking to expand their social circle is welcome.
+
+**Is this free?**  
+For our pilot cohort, we ask for €99-120 to cover activities and coordination. You'll also pay for
+your own meals and activity tickets as they occur.
+
+**What if I'm introverted?**  
+Perfect! The structure takes pressure off. You're not expected to be the life of the party — just be
+yourself and show up.
+
+**How do I know people will actually commit?**  
+We're carefully selecting participants who demonstrate genuine interest and availability. Once your
+cohort gets started, you'll want to show up!
