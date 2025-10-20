@@ -15,7 +15,7 @@ const AceternityNavbar: React.FC = () => {
       link: "/",
     },
     {
-      link: "https://instagram.com/newcohorts",
+      link: "https://instagram.com/newcohorts.com",
       icon: <Instagram size={16} />,
     },
   ];
