@@ -1,0 +1,34 @@
+---
+export interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Learn about New Cohorts - a 6-week friendship program in Amsterdam. Discover our mission, founders, and program details." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{title}</title>
+    <link rel="stylesheet" href="/src/styles/global.css" />
+  </head>
+  <body class="text-white font-sans">
+    <!-- Background Image with Overlay -->
+    <div class="fixed inset-0 z-0">
+      <div 
+        class="w-full h-full bg-cover bg-center bg-no-repeat"
+        style="background-image: url('https://images.unsplash.com/photo-1580996378027-23040f16f157?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1064');"
+      ></div>
+      <div class="absolute inset-0 bg-black/60"></div>
+    </div>
+    
+    <!-- Content -->
+    <div class="relative z-10">
+      <slot />
+    </div>
+  </body>
+</html>
