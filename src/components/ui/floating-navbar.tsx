@@ -49,8 +49,8 @@ export const FloatingNav = ({
             {navItem.name && <span className="hidden sm:block text-sm">{navItem.name}</span>}
           </a>
         ))}
-        <a 
-          href="https://tally.so/r/your-tally-form"
+        <a
+          href="https://tally.so/r/mOWrxK"
           target="_blank"
           rel="noopener noreferrer"
           className="border border-white/20 text-sm font-medium bg-white/10 backdrop-blur-sm text-charcoal px-4 py-2 rounded-xl hover:bg-white/20 transition-all duration-200"
