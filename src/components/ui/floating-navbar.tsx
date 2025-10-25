@@ -50,7 +50,7 @@ export const FloatingNav = ({
           </a>
         ))}
         <a
-          href="https://tally.so/r/mOWrxK"
+          href="https://sink.newcohorts.com/signup"
           target="_blank"
           rel="noopener noreferrer"
           className="border border-white/20 text-sm font-medium bg-white/10 backdrop-blur-sm text-charcoal px-4 py-2 rounded-xl hover:bg-white/20 transition-all duration-200"
