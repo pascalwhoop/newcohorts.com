@@ -1,8 +1,12 @@
 {
+  "main": ".open-next/worker.js",
   "name": "newcohorts",
   "compatibility_date": "2025-01-20",
-  "pages_build_output_dir": ".vercel/output/static",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
   "assets": {
-    "directory": ".vercel/output/static"
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
   }
 }
