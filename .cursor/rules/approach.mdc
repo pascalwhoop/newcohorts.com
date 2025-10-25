@@ -1,0 +1,41 @@
+---
+alwaysApply: true
+---
+
+## TODO
+
+always use todo.txt to keep track of your tasks. add new tasks, mark completed tasks. Group larger
+topics into "packages" through a h2 markdown heading.
+
+Finally let's have "Epics" in a h1 heading. e.g. major new capabilities, features, etc.
+
+@todo.txt
+
+format:
+
+```
+
+## Package Name
+- [ ] Task description
+- [x] Task description
+- [ ] task with a theme #design
+- [x] setup #CI
+
+
+## Another Package Name
+- [ ] Task description
+- [x] Task description
+- [ ] task with a theme #design
+- [x] setup #CI
+
+```
+
+## Git commit
+
+`gcp` = git commit & git push
+
+## What to run and what not
+
+- Never try running the dev server unless I ask you. I RUN the server!
+- never just make large library choices without asking me.
+- When in doubt ask for guidance.
