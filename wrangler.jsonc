@@ -1,0 +1,8 @@
+{
+  "name": "newcohorts",
+  "compatibility_date": "2025-01-20",
+  "pages_build_output_dir": ".vercel/output/static",
+  "assets": {
+    "directory": ".vercel/output/static"
+  }
+}
