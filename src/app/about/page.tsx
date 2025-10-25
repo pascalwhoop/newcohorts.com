@@ -393,31 +393,32 @@ export default function About() {
               </div>
               
               <h3 className="text-xl font-semibold text-slate-900 mb-4">
-                We Handle Everything
+                We Handle the Structure, You Handle the Content
               </h3>
               
               <p className="text-slate-600 leading-relaxed mb-6">
-                You don't need to plan anything. We organize all the activities, book venues, 
-                and handle logistics. You just need to show up and be open to connecting.
+                We provide the framework, venue bookings, and coordination. You and your cohort 
+                decide what activities to do together. The first session is an open space where 
+                everyone contributes ideas and takes ownership of organizing events.
               </p>
               
               <div className="grid md:grid-cols-2 gap-6 text-left">
                 <div>
                   <h4 className="font-semibold text-slate-900 mb-2">What We Provide:</h4>
                   <ul className="text-slate-600 space-y-1">
-                    <li>• Weekly activity planning</li>
-                    <li>• Venue bookings</li>
-                    <li>• Group coordination</li>
-                    <li>• Community support</li>
+                    <li>• Structured 6-week framework</li>
+                    <li>• Venue bookings and logistics</li>
+                    <li>• Group coordination and support</li>
+                    <li>• Community facilitation</li>
                   </ul>
                 </div>
                 <div>
                   <h4 className="font-semibold text-slate-900 mb-2">What We Ask:</h4>
                   <ul className="text-slate-600 space-y-1">
                     <li>• Attend 5 out of 6 sessions</li>
+                    <li>• Contribute ideas and help organize activities</li>
                     <li>• Be open and authentic</li>
-                    <li>• Respect others' time</li>
-                    <li>• Commit to the process</li>
+                    <li>• Respect others' time and commitments</li>
                   </ul>
                 </div>
               </div>
