@@ -1,0 +1,56 @@
+# Initial website implementation
+
+## Phase 1: Core Landing Page (COMPLETED)
+- [x] Analyze Les Amis website structure and design patterns #research
+- [x] Crawl and analyze the existing prototype at same-app.com #research
+- [x] Clear out newcohorts.com content while preserving knowledge base #setup
+- [x] Set up Next.js with shadcn/ui in newcohorts.com #setup
+- [x] Check available shadcn/ui components #setup
+- [x] Create high-level plan for sections, pages, and components #planning
+- [x] Hero section with CTA → Tally.so signup #implementation
+- [x] Problem/solution narrative #implementation
+- [x] How it works (3 steps) #implementation
+- [x] Basic testimonial #implementation
+- [x] External signup form (Tally.so integration) #implementation
+- [x] Fix contrast issues in header buttons #design
+- [x] Fix contrast issues in footer section #design
+- [x] Remove all references to free pilot program #content
+- [x] Update pricing to €120 for 6 weeks #content
+
+## Phase 2: Enhanced Features (COMPLETED)
+- [x] Create About page to fix 404 error #implementation
+- [x] 6-week journey timeline #implementation
+- [x] FAQ accordion #implementation
+- [ ] Enhanced testimonials #implementation
+
+## Phase 3: Polish & Launch (PENDING)
+- [ ] Advanced animations #implementation
+- [ ] Analytics integration #implementation
+- [ ] Deploy to production #deployment
+
+## Phase 4: Content & Social (FUTURE)
+- [ ] Instagram integration with real content #implementation
+- [ ] User-generated content showcase #implementation
+- [ ] Social media feed integration #implementation
+
+# Epic: Advanced Tracking & Targeting
+## Phase 5: Analytics Foundation (FUTURE)
+- [ ] Google Analytics 4 setup #analytics
+- [ ] Google Tag Manager integration #analytics
+- [ ] Facebook Pixel installation #analytics
+- [ ] UTM parameter tracking #analytics
+- [ ] Custom conversion events #analytics
+
+## Phase 6: Audience Intelligence (FUTURE)
+- [ ] Conversion tracking optimization #analytics
+- [ ] User behavior analysis #analytics
+- [ ] Demographic insights #analytics
+- [ ] Custom audience creation #analytics
+- [ ] Lookalike audience testing #analytics
+
+## Phase 7: Marketing Automation (FUTURE)
+- [ ] Facebook lookalike campaigns #marketing
+- [ ] Retargeting campaigns #marketing
+- [ ] Email marketing integration #marketing
+- [ ] A/B testing framework #marketing
+- [ ] Conversion rate optimization #marketing

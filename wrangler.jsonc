@@ -1,7 +1,0 @@
-{
-  "name": "newcohorts",
-  "compatibility_date": "2025-10-20",
-  "assets": {
-    "directory": "./dist"
-  }
-}

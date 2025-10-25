@@ -1,0 +1,27 @@
+---
+alwaysApply: true
+---
+
+always use todo.txt to keep track of your tasks. add new tasks, mark completed tasks. Group larger
+topics into "packages" through a h2 markdown heading.
+
+Finally let's have "Epics" in a h1 heading. e.g. major new capabilities, features, etc.
+
+format:
+
+```
+
+## Package Name
+- [ ] Task description
+- [x] Task description
+- [ ] task with a theme #design
+- [x] setup #CI
+
+
+## Another Package Name
+- [ ] Task description
+- [x] Task description
+- [ ] task with a theme #design
+- [x] setup #CI
+
+```
