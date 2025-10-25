@@ -34,6 +34,7 @@
 - [x] Deploy to production #deployment
 
 ## Phase 4: Content & Social (FUTURE)
+- [ ] Blog section with helpful content #implementation
 - [ ] Instagram integration with real content #implementation
 - [ ] User-generated content showcase #implementation
 - [ ] Social media feed integration #implementation

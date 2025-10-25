@@ -2,6 +2,8 @@
 alwaysApply: true
 ---
 
+## TODO
+
 always use todo.txt to keep track of your tasks. add new tasks, mark completed tasks. Group larger
 topics into "packages" through a h2 markdown heading.
 
@@ -25,3 +27,7 @@ format:
 - [x] setup #CI
 
 ```
+
+## Git commit
+
+`gcp` = git commit & git push

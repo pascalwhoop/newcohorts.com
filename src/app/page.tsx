@@ -8,9 +8,39 @@ import { BubbleBackground } from "@/components/ui/bubble-background";
 import { Instagram, Users, Calendar, Heart } from "lucide-react";
 import Link from "next/link";
 
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "New Cohorts",
+  "description": "Build lasting friendships in Amsterdam through structured 6-week cohort programs",
+  "url": "https://newcohorts.com",
+  "logo": "https://newcohorts.com/og-image.jpg",
+  "sameAs": [
+    "https://instagram.com/newcohorts"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Amsterdam",
+    "addressCountry": "NL"
+  },
+  "offers": {
+    "@type": "Offer",
+    "name": "6-Week Friendship Cohort Program",
+    "description": "Structured 6-week program to build lasting friendships in Amsterdam",
+    "price": "120",
+    "priceCurrency": "EUR",
+    "availability": "https://schema.org/InStock"
+  }
+};
+
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-charcoal via-slate-800 to-charcoal">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <div className="min-h-screen bg-gradient-to-br from-charcoal via-slate-800 to-charcoal">
       {/* Hero Section */}
       <section className="relative min-h-screen">
         <BubbleBackground
@@ -430,6 +460,7 @@ export default function Home() {
           </Button>
         </div>
       </section>
-    </div>
+      </div>
+    </>
   );
 }
