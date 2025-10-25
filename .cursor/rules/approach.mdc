@@ -9,6 +9,8 @@ topics into "packages" through a h2 markdown heading.
 
 Finally let's have "Epics" in a h1 heading. e.g. major new capabilities, features, etc.
 
+@todo.txt
+
 format:
 
 ```
@@ -31,3 +33,9 @@ format:
 ## Git commit
 
 `gcp` = git commit & git push
+
+## What to run and what not
+
+- Never try running the dev server unless I ask you. I RUN the server!
+- never just make large library choices without asking me.
+- When in doubt ask for guidance.
