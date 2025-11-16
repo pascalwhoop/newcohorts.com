@@ -44,5 +44,9 @@ next-env.d.ts
 .open-next/*
 .wrangler/*
 
+playwright-report/*
+test-results/*
+
 # IDE
 .idea/*
+
