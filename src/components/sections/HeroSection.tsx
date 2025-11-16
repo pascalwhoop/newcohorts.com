@@ -48,7 +48,7 @@ export function HeroSection() {
           </p>
 
           <p className="text-base text-matcha font-semibold mb-8">
-            🚀 Launching January 2026 - Join our founding cohort
+            Be part of the first cohort - January 2026
           </p>
 
           {/* CTA Button */}
@@ -59,7 +59,7 @@ export function HeroSection() {
               asChild
             >
               <a href={SOCIAL_LINKS.signup} target="_blank" rel="noopener noreferrer">
-                Reserve Your Founding Member Spot
+                Pre-register for January
               </a>
             </Button>
           </div>

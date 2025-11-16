@@ -46,9 +46,9 @@ export default function Home() {
         {/* <TestimonialSection /> */}
         <FAQSection />
         <FinalCTASection
-          title="Join Our Founding Cohort - January 2026"
-          subtitle="Pre-register now to secure founding member pricing and help shape the program. Limited to 40 spots."
-          buttonText="Reserve Your Founding Member Spot"
+          title="Ready to Build Real Friendships?"
+          subtitle="Pre-register for our first cohort starting January 2026. Limited to 20-30 spots."
+          buttonText="Pre-register for January"
         />
       </div>
     </>

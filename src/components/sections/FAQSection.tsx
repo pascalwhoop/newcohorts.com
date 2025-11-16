@@ -44,7 +44,7 @@ const defaultFAQs: FAQItem[] = [
   {
     id: "item-8",
     question: "What's the investment?",
-    answer: "We're finalizing pricing based on venue partnerships and activity costs. Founding members will get our best rate ever (20-30% off future pricing). We'll share pricing in mid-December, and you can decide then if you want to confirm your spot. No commitment now."
+    answer: "We're finalizing pricing based on venue partnerships and activity costs. Our first cohort will get the best rate (20-30% off future pricing). We'll share pricing in mid-December, and you can decide then if you want to confirm your spot. No commitment now."
   },
   {
     id: "item-9",
