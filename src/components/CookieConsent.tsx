@@ -4,10 +4,11 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
-// Extend Window interface for Google Analytics dataLayer
+// Extend Window interface for Google Analytics dataLayer and gtag
 declare global {
   interface Window {
     dataLayer?: unknown[];
+    gtag?: (...args: unknown[]) => void;
   }
 }
 
@@ -31,6 +32,10 @@ export function CookieConsent() {
   const [consentData, setConsentData] = useState<ConsentData | null>(null);
 
   useEffect(() => {
+    // Initialize consent mode defaults BEFORE checking stored consent
+    // This ensures consent mode is set before any Google tags load
+    initializeConsentMode();
+    
     // Check if consent has been given
     const stored = localStorage.getItem(COOKIE_CONSENT_KEY);
     
@@ -44,9 +49,12 @@ export function CookieConsent() {
           setIsVisible(true);
         } else {
           setConsentData(data);
-          // Load analytics only if accepted
+          // Update consent state based on stored preference
           if (data.status === "accepted") {
+            updateConsentState("granted");
             loadGoogleAnalytics();
+          } else {
+            updateConsentState("denied");
           }
         }
       } catch {
@@ -58,6 +66,43 @@ export function CookieConsent() {
       return () => clearTimeout(timer);
     }
   }, []);
+
+  // Initialize Consent Mode v2 defaults
+  const initializeConsentMode = () => {
+    // Initialize dataLayer and gtag function if not already present
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = window.gtag || function(...args: unknown[]) {
+      window.dataLayer!.push(args);
+    };
+    
+    // Set default consent state to 'denied' for all parameters
+    // This must be called BEFORE any Google tags load
+    window.gtag('consent', 'default', {
+      'ad_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied',
+      'analytics_storage': 'denied',
+      'wait_for_update': 500 // Wait 500ms for consent update
+    });
+  };
+
+  // Update consent state based on user choice
+  const updateConsentState = (status: 'granted' | 'denied') => {
+    if (!window.gtag) {
+      // If gtag isn't loaded yet, initialize it first
+      initializeConsentMode();
+    }
+    
+    // gtag is guaranteed to exist after initializeConsentMode
+    if (window.gtag) {
+      window.gtag('consent', 'update', {
+        'ad_storage': status,
+        'ad_user_data': status,
+        'ad_personalization': status,
+        'analytics_storage': status
+      });
+    }
+  };
 
   const loadGoogleAnalytics = () => {
     // Only load if not already loaded
@@ -71,7 +116,7 @@ export function CookieConsent() {
     script1.src = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
     document.head.appendChild(script1);
 
-    // Initialize gtag
+    // Initialize gtag config
     const script2 = document.createElement("script");
     script2.innerHTML = `
       window.dataLayer = window.dataLayer || [];
@@ -94,6 +139,11 @@ export function CookieConsent() {
     localStorage.setItem(COOKIE_CONSENT_KEY, JSON.stringify(data));
     setConsentData(data);
     setIsVisible(false);
+    
+    // Update consent state to 'granted' using Consent Mode v2
+    updateConsentState("granted");
+    
+    // Load Google Analytics
     loadGoogleAnalytics();
   };
 
@@ -106,7 +156,11 @@ export function CookieConsent() {
     localStorage.setItem(COOKIE_CONSENT_KEY, JSON.stringify(data));
     setConsentData(data);
     setIsVisible(false);
-    // Ensure GA is not loaded if user rejects
+    
+    // Update consent state to 'denied' using Consent Mode v2
+    updateConsentState("denied");
+    
+    // Ensure GA scripts are removed if user rejects
     removeGoogleAnalytics();
   };
 
