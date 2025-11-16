@@ -77,12 +77,13 @@ test.describe('Cookie Consent', () => {
     // Check that Google Analytics script is NOT loaded
     const gaScript = page.locator(`script[src*="googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}"]`);
     await expect(gaScript).toHaveCount(0);
-    
-    // Check that gtag function does NOT exist
+
+    // Check that gtag function EXISTS (Consent Mode v2 stub should be present)
+    // but the actual GA measurement script should not be loaded (checked above)
     const gtagExists = await page.evaluate(() => {
       return typeof (window as any).gtag === 'function';
     });
-    expect(gtagExists).toBe(false);
+    expect(gtagExists).toBe(true);
     
     // Check localStorage
     const consentData = await page.evaluate((key) => {
