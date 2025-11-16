@@ -78,11 +78,15 @@ test.describe('Cookie Consent', () => {
     const gaScript = page.locator(`script[src*="googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}"]`);
     await expect(gaScript).toHaveCount(0);
     
-    // Check that gtag function does NOT exist
-    const gtagExists = await page.evaluate(() => {
-      return typeof (window as any).gtag === 'function';
-    });
-    expect(gtagExists).toBe(false);
+    // Check that Google Analytics config was NOT called
+    // (gtag function exists for consent mode, but GA config shouldn't be set)
+    const gaConfigCalled = await page.evaluate((id) => {
+      const dataLayer = (window as any).dataLayer || [];
+      return dataLayer.some((item: any[]) => 
+        item && item[0] === 'config' && item[1] === id
+      );
+    }, GA_MEASUREMENT_ID);
+    expect(gaConfigCalled).toBe(false);
     
     // Check localStorage
     const consentData = await page.evaluate((key) => {
