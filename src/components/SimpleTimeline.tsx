@@ -59,7 +59,7 @@ export function SimpleTimeline() {
             Proposed 6-Week Journey
           </h2>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-            Here's what we're planning. As a first cohort member, you'll vote on final activities and timing in December.
+            Here's what we're planning. As a first cohort member, you'll vote on final activities and timing.
           </p>
         </div>
         
