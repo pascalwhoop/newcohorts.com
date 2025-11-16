@@ -2,7 +2,6 @@ import { SimpleTimeline } from "@/components/SimpleTimeline";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { ProblemSolutionSection } from "@/components/sections/ProblemSolutionSection";
 import { HowItWorksSection } from "@/components/sections/HowItWorksSection";
-import { BuildingTogetherSection } from "@/components/sections/BuildingTogetherSection";
 import { FAQSection } from "@/components/sections/FAQSection";
 import { FinalCTASection } from "@/components/sections/FinalCTASection";
 import { SITE_CONFIG } from "@/lib/constants";
@@ -45,7 +44,6 @@ export default function Home() {
         <HowItWorksSection />
         <SimpleTimeline />
         {/* <TestimonialSection /> */}
-        <BuildingTogetherSection />
         <FAQSection />
         <FinalCTASection
           title="Join Our Founding Cohort - January 2026"
