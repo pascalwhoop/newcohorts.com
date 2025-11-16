@@ -56,10 +56,10 @@ export function SimpleTimeline() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-white mb-4">
-            6-Week Journey in a Cohort
+            Proposed 6-Week Journey
           </h2>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-            A structured program designed to build genuine connections through shared experiences
+            Here's what we're planning. As a first cohort member, you'll vote on final activities and timing in December.
           </p>
         </div>
         
