@@ -97,7 +97,7 @@ people, not just a quick venture.
 
 ### Phase 1: Recruitment (Weeks 1-4)
 
-**Goal:** 25-40 signups through organic + paid channels
+**Goal:** 20-30 signups through organic + paid channels
 
 **Channels:**
 

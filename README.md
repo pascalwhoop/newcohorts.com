@@ -6,7 +6,7 @@ Build lasting friendships in Amsterdam through structured 6-week cohort programs
 
 New Cohorts is a community platform that helps relocated people in Amsterdam build meaningful,
 lasting friendships through consistent group experiences. Our structured 6-week programs bring
-together 25-40 people for weekly activities designed to foster genuine connections.
+together 20-30 people for weekly activities designed to foster genuine connections.
 
 ## Tech Stack
 

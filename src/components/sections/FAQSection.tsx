@@ -9,7 +9,7 @@ const defaultFAQs: FAQItem[] = [
   {
     id: "item-1",
     question: "What exactly is a cohort?",
-    answer: "A cohort is a group of 25-40 people who commit to meeting every week for 6 weeks. Unlike random meetups, you'll see the same people each week, allowing friendships to develop naturally through consistent interaction and shared experiences."
+    answer: "A cohort is a group of 20-30 people who commit to meeting every week for 6 weeks. Unlike random meetups, you'll see the same people each week, allowing friendships to develop naturally through consistent interaction and shared experiences."
   },
   {
     id: "item-2", 

@@ -64,7 +64,7 @@ designed to foster genuine connections.
 
 ## Key Risks & Challenges
 
-- **Chicken-and-egg problem:** Need critical mass for first cohort (25-40 people minimum)
+- **Chicken-and-egg problem:** Need critical mass for first cohort (20-30 people minimum)
 - **Flakiness risk:** People dropping out breaks the model
 - **Unclear value proposition:** "Make friends" sounds vague - needs sharper positioning around
   building your crew

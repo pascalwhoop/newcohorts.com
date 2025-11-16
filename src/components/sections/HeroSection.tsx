@@ -37,8 +37,8 @@ export function HeroSection() {
 
           {/* Main Headline - Static text instead of FlipWords */}
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-            Find your{" "}
-            <span className="text-matcha">people</span>{" "}
+            Find{" "}
+            <span className="text-matcha">your people</span>{" "}
             in Amsterdam
           </h1>
           
@@ -47,7 +47,7 @@ export function HeroSection() {
             Build real friendships in 6 weeks, not random meetups
           </p>
 
-          <p className="text-base text-matcha font-semibold mb-8">
+          <p className="text-base text-gray-200 font-semibold mb-8">
             Be part of the first cohort - January 2026
           </p>
 

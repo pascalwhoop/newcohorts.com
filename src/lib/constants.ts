@@ -14,7 +14,7 @@ export const SOCIAL_LINKS = {
 export const PROGRAM_DETAILS = {
   duration: "6 weeks",
   price: "€150",
-  groupSize: "25-40 people",
+  groupSize: "20-30 people",
   sessions: "6 events",
   commitment: "5 out of 6 sessions",
 } as const;
