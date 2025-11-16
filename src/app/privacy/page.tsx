@@ -2,18 +2,18 @@ import Link from "next/link";
 import { AboutNavigation } from "@/components/sections/AboutNavigation";
 
 export const metadata = {
-  title: "Privacy Policy - New Cohorts | Cookie Policy & Data Protection",
-  description: "Learn how New Cohorts protects your privacy, handles cookies, and processes your data in compliance with GDPR and EU privacy regulations.",
+  title: "Privacy Policy - Cohorts | Cookie Policy & Data Protection",
+  description: "Learn how Cohorts protects your privacy, handles cookies, and processes your data in compliance with GDPR and EU privacy regulations.",
   keywords: [
     "privacy policy",
     "cookie policy",
     "GDPR compliance",
     "data protection",
-    "New Cohorts privacy",
+    "Cohorts privacy",
   ],
   openGraph: {
-    title: "Privacy Policy - New Cohorts",
-    description: "Learn how New Cohorts protects your privacy and handles your data.",
+    title: "Privacy Policy - Cohorts",
+    description: "Learn how Cohorts protects your privacy and handles your data.",
     url: "https://newcohorts.com/privacy",
   },
 };
@@ -30,7 +30,7 @@ export default function Privacy() {
           <section style={{ marginBottom: '30px' }}>
             <h2 style={{ color: '#fff', marginBottom: '15px' }}>Introduction</h2>
             <p style={{ color: 'rgba(255,255,255,0.9)' }}>
-            New Cohorts ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website newcohorts.com.
+            Cohorts ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website newcohorts.com.
             </p>
             <p style={{ color: 'rgba(255,255,255,0.9)' }}>
               We are based in Amsterdam, Netherlands, and comply with the General Data Protection Regulation (GDPR) and the ePrivacy Directive.
