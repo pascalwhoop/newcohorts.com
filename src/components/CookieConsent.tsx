@@ -4,6 +4,13 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
+// Extend Window interface for Google Analytics dataLayer
+declare global {
+  interface Window {
+    dataLayer?: unknown[];
+  }
+}
+
 const COOKIE_CONSENT_KEY = "cookie-consent";
 const CONSENT_EXPIRY_DAYS = 365; // Renew consent annually
 const CONSENT_VERSION = "1.0"; // Increment when privacy policy changes
