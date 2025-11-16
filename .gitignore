@@ -43,3 +43,6 @@ next-env.d.ts
 .playwright-mcp/
 .open-next/*
 .wrangler/*
+
+playwright-report/*
+test-results/*
