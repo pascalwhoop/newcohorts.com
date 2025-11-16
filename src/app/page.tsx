@@ -1,10 +1,8 @@
 import { SimpleTimeline } from "@/components/SimpleTimeline";
 import { HeroSection } from "@/components/sections/HeroSection";
-import { FoundingMemberBenefitsSection } from "@/components/sections/FoundingMemberBenefitsSection";
 import { ProblemSolutionSection } from "@/components/sections/ProblemSolutionSection";
 import { HowItWorksSection } from "@/components/sections/HowItWorksSection";
 import { BuildingTogetherSection } from "@/components/sections/BuildingTogetherSection";
-import { TestimonialSection } from "@/components/sections/TestimonialSection";
 import { FAQSection } from "@/components/sections/FAQSection";
 import { FinalCTASection } from "@/components/sections/FinalCTASection";
 import { SITE_CONFIG } from "@/lib/constants";
@@ -43,7 +41,6 @@ export default function Home() {
       />
       <div className="min-h-screen bg-gradient-to-br from-charcoal via-slate-800 to-charcoal">
         <HeroSection />
-        <FoundingMemberBenefitsSection />
         <ProblemSolutionSection />
         <HowItWorksSection />
         <SimpleTimeline />
