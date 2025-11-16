@@ -77,7 +77,6 @@ test.describe('Cookie Consent', () => {
     // Check that Google Analytics script is NOT loaded
     const gaScript = page.locator(`script[src*="googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}"]`);
     await expect(gaScript).toHaveCount(0);
-    
     // Check that Google Analytics config was NOT called
     // (gtag function exists for consent mode, but GA config shouldn't be set)
     const gaConfigCalled = await page.evaluate((id) => {

@@ -5,12 +5,16 @@ export function ProblemSolutionSection() {
   return (
     <section className="py-20 px-4 bg-white">
       <div className="max-w-4xl mx-auto text-center">
+        <p className="text-sm font-semibold text-matcha uppercase tracking-wide mb-3">
+          Not Another One-Off Meetup
+        </p>
+
         <h2 className="text-3xl md:text-4xl font-bold text-charcoal mb-8">
-          The same people, every week
+          Consistency builds connections
         </h2>
-        
+
         <p className="text-lg text-gray-600 mb-12 leading-relaxed max-w-3xl mx-auto">
-          Unlike one-off meetups or random friend-matching apps, cohorts keep you with the same group for 6 consecutive weeks. This creates the familiarity and trust needed for real friendships to form.
+          You've been to the drinks. The group hikes. You exchange numbers and... nothing. Real friendships need time. Same 20-30 people, every week, for 6 weeks.
         </p>
 
         <div className="grid md:grid-cols-3 gap-8">
@@ -20,7 +24,7 @@ export function ProblemSolutionSection() {
                 <Users className="w-6 h-6 text-matcha" />
               </div>
               <h3 className="font-semibold text-charcoal mb-2">Consistent Group</h3>
-              <p className="text-gray-600 text-sm">Same 25-40 people every week for 6 weeks</p>
+              <p className="text-gray-600 text-sm">Same 20-30 people every week for 6 weeks</p>
             </CardContent>
           </Card>
 
@@ -40,7 +44,7 @@ export function ProblemSolutionSection() {
                 <Calendar className="w-6 h-6 text-matcha" />
               </div>
               <h3 className="font-semibold text-charcoal mb-2">No Planning</h3>
-              <p className="text-gray-600 text-sm">Just show up - we handle all the logistics</p>
+              <p className="text-gray-600 text-sm">We plan. You connect.</p>
             </CardContent>
           </Card>
         </div>

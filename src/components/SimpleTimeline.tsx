@@ -14,15 +14,15 @@ interface WeekData {
 const timelineData: WeekData[] = [
   {
     week: 1,
-    title: "Kickoff & Open Space Planning",
-    description: "Develop the peer event agenda together",
-    activities: ["3x 25min planning sessions", "30min plenary agenda presentation", "Pizza dinner", "Optional pub crawl"]
+    title: "Launch Event",
+    description: "Get to know each other over pizza and shape your evening conversations",
+    activities: ["3x 25min planning sessions", "30min plenary conversation rounds", "Pizza dinner", "Optional pub crawl"]
   },
   {
     week: 2,
     title: "Boat Cruise Adventure",
     description: "Explore Amsterdam from the water",
-    activities: ["City canal tour", "Group bonding on water", "Enjoy Amsterdam clichés together", "Scenic photo opportunities"]
+    activities: ["City canal tour", "Bond over Amsterdam's best-loved experiences", "Scenic photo opportunities"]
   },
   {
     week: 3,
@@ -56,10 +56,10 @@ export function SimpleTimeline() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-white mb-4">
-            6-Week Journey to Lasting Friendships
+            Proposed 6-Week Journey
           </h2>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-            A structured program designed to build genuine connections through shared experiences
+            Here's what we're planning. As a first cohort member, you'll vote on final activities and timing.
           </p>
         </div>
         

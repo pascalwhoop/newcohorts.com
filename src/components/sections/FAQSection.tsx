@@ -9,7 +9,7 @@ const defaultFAQs: FAQItem[] = [
   {
     id: "item-1",
     question: "What exactly is a cohort?",
-    answer: "A cohort is a group of 25-40 people who commit to meeting every week for 6 weeks. Unlike random meetups, you'll see the same people each week, allowing friendships to develop naturally through consistent interaction and shared experiences."
+    answer: "A cohort is a group of 20-30 people who commit to meeting every week for 6 weeks. Unlike random meetups, you'll see the same people each week, allowing friendships to develop naturally through consistent interaction and shared experiences."
   },
   {
     id: "item-2", 
@@ -40,6 +40,21 @@ const defaultFAQs: FAQItem[] = [
     id: "item-7",
     question: "What if I don't click with my cohort?",
     answer: "We do our best to match compatible people, but we understand that not every group will be perfect. We encourage you to give it a few weeks as initial awkwardness often fades. If there are serious issues, we'll work with you to find a solution."
+  },
+  {
+    id: "item-8",
+    question: "What's the investment?",
+    answer: "We're finalizing pricing based on venue partnerships and activity costs. Our first cohort will get the best rate (20-30% off future pricing). We'll share pricing in mid-December, and you can decide then if you want to confirm your spot. No commitment now."
+  },
+  {
+    id: "item-9",
+    question: "Is this definitely happening?",
+    answer: "Yes! We're launching January 2026 with our founding cohort. We need 25 confirmed members to proceed. If we don't hit that number, we'll refund everyone and reschedule. Currently we have a growing number of pre-registrations."
+  },
+  {
+    id: "item-10",
+    question: "What if I pre-register and change my mind?",
+    answer: "Zero pressure. Pre-registration just holds your spot and gets you into the community chat. You only commit once we share final details (pricing, exact dates, venues) in December."
   }
 ];
 

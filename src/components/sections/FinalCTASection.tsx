@@ -8,10 +8,10 @@ interface FinalCTASectionProps {
   buttonHref?: string;
 }
 
-export function FinalCTASection({ 
-  title = "Ready to find your people?",
-  subtitle = "Next cohort starts Monday, November 18th.\nLimited to 16 people. Apply by November 4th.",
-  buttonText = "Apply Now",
+export function FinalCTASection({
+  title = "First cohort starts January 2026",
+  subtitle = "Pre-register now. Join our private community chat and connect with your future cohort before January.",
+  buttonText = "Pre-register Now",
   buttonHref = SOCIAL_LINKS.signup
 }: FinalCTASectionProps) {
   return (
@@ -20,13 +20,17 @@ export function FinalCTASection({
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
           {title}
         </h2>
-        
-        <p className="text-xl text-gray-200 mb-8 whitespace-pre-line">
+
+        <p className="text-xl text-gray-200 mb-6 whitespace-pre-line">
           {subtitle}
         </p>
 
-        <Button 
-          size="lg" 
+        <p className="text-sm text-gray-300 mb-8">
+          Early spots available. Limited pre-registration slots.
+        </p>
+
+        <Button
+          size="lg"
           className="bg-matcha text-white hover:bg-matcha/90 font-semibold px-8 py-4 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
           asChild
         >

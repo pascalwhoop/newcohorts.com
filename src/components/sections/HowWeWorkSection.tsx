@@ -15,7 +15,7 @@ const defaultProcessSteps: ProcessStep[] = [
   {
     number: 2,
     title: "Intentional Matching",
-    description: "We form cohorts of 25-40 people with similar availability and interests. We consider factors like age, lifestyle, and goals to create groups where people are likely to connect."
+    description: "We form cohorts of 20-30 people with similar availability and interests. We consider factors like age, lifestyle, and goals to create groups where people are likely to connect."
   },
   {
     number: 3,

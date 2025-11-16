@@ -2,7 +2,6 @@ import { SimpleTimeline } from "@/components/SimpleTimeline";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { ProblemSolutionSection } from "@/components/sections/ProblemSolutionSection";
 import { HowItWorksSection } from "@/components/sections/HowItWorksSection";
-import { TestimonialSection } from "@/components/sections/TestimonialSection";
 import { FAQSection } from "@/components/sections/FAQSection";
 import { FinalCTASection } from "@/components/sections/FinalCTASection";
 import { SITE_CONFIG } from "@/lib/constants";
@@ -46,7 +45,11 @@ export default function Home() {
         <SimpleTimeline />
         {/* <TestimonialSection /> */}
         <FAQSection />
-        <FinalCTASection />
+        <FinalCTASection
+          title="Ready to Build Real Friendships?"
+          subtitle="Pre-register for our first cohort starting January 2026. Limited to 20-30 spots."
+          buttonText="Pre-register for January"
+        />
       </div>
     </>
   );

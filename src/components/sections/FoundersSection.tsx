@@ -14,7 +14,7 @@ const defaultFounders: FounderData[] = [
     image: "/logos/founders/pascal.jpg",
     imageAlt: "Pascal Brokmeier, co-founder of New Cohorts, Product & Operations lead",
     bio: [
-      "Pascal has moved multiple times across Europe and spent years helping exchange students hit the ground running—coordinating Erasmus-style arrivals, onboarding weeks, and social programs so people didn't fall through the cracks.",
+      "Pascal has moved multiple times across Europe and spent years helping exchange students hit the ground running. He's coordinated Erasmus-style arrivals, onboarding weeks, and social programs so people didn't fall through the cracks.",
       "Professionally, he's led engineering teams in Amsterdam and beyond; today he works in data/AI and has headed data engineering at Every Cure after several years at McKinsey's QuantumBlack AI practice."
     ],
     quickFacts: "Amsterdam-based; data/AI background; experienced community on-ramp organizer."
@@ -25,8 +25,8 @@ const defaultFounders: FounderData[] = [
     image: "/logos/founders/patrick.png",
     imageAlt: "Patrick Akil, co-founder of New Cohorts, Community & Storytelling lead",
     bio: [
-      "Patrick is a software engineer and long-time community builder who hosts the \"Beyond Coding\" podcast—weekly conversations about tech, entrepreneurship, and the human side of work.",
-      "He's trained engineers, facilitated meetups, and speaks frequently about communication, teamwork, and career growth—the exact ingredients that help strangers become a functioning community."
+      "Patrick is a software engineer and long-time community builder who hosts the \"Beyond Coding\" podcast: weekly conversations about tech, entrepreneurship, and the human side of work.",
+      "He's trained engineers, facilitated meetups, and speaks frequently about communication, teamwork, and career growth: the exact ingredients that help strangers become a functioning community."
     ],
     quickFacts: "NL-based engineer; podcast host; focused on connection, learning, and momentum."
   }
@@ -46,7 +46,7 @@ export function FoundersSection({ founders = defaultFounders }: FoundersSectionP
             Why we're doing this
           </h2>
           <p className="text-lg leading-relaxed text-slate-700 text-center">
-            Moving to a new city can feel exciting—and isolating. We're building structured, 
+            Moving to a new city can feel exciting and isolating. We're building structured, 
             time-boxed cohorts so newcomers land with an instant circle, a shared calendar, 
             and a clear path from "I just arrived" to "I belong here." It's personal for both of us.
           </p>
@@ -96,7 +96,7 @@ export function FoundersSection({ founders = defaultFounders }: FoundersSectionP
           <p className="text-lg leading-relaxed text-slate-700">
             Belonging shouldn't be a matter of luck. With a clear cohort, a six-week shared agenda, 
             and lightweight accountability, anyone can plug into a city's social fabric fast. 
-            We're here to make that first month feel like month twelve—fewer awkward cold starts, 
+            We're here to make that first month feel like month twelve: fewer awkward cold starts, 
             more meaningful reps together.
           </p>
         </div>

@@ -7,8 +7,8 @@ import { WhatMakesUsDifferentSection } from "@/components/sections/WhatMakesUsDi
 import { AboutCTASection } from "@/components/sections/AboutCTASection";
 
 export const metadata = {
-  title: "About New Cohorts - Meet Pascal & Patrick | Amsterdam Friendship Cohorts",
-  description: "Learn about New Cohorts founders Pascal Brokmeier and Patrick Akil, our mission to build meaningful friendships through structured 6-week cohorts in Amsterdam. Discover our story, values, and commitment to community building.",
+  title: "About New Cohorts - Meet Pascal & Patrick | Amsterdam Cohorts",
+  description: "Learn about New Cohorts founders Pascal Brokmeier and Patrick Akil, our mission to build meaningful connections through structured 6-week cohorts in Amsterdam. Discover our story, values, and commitment to community building.",
   keywords: [
     "New Cohorts founders",
     "Pascal Brokmeier",
@@ -20,7 +20,7 @@ export const metadata = {
   ],
   openGraph: {
     title: "About New Cohorts - Meet Pascal & Patrick",
-    description: "Learn about New Cohorts founders Pascal Brokmeier and Patrick Akil, our mission to build meaningful friendships through structured 6-week cohorts in Amsterdam.",
+    description: "Learn about New Cohorts founders Pascal Brokmeier and Patrick Akil, our mission to build meaningful connections through structured 6-week cohorts in Amsterdam.",
     url: "https://newcohorts.com/about",
     images: [
       {
@@ -34,7 +34,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "About New Cohorts - Meet Pascal & Patrick",
-    description: "Learn about New Cohorts founders Pascal Brokmeier and Patrick Akil, our mission to build meaningful friendships through structured 6-week cohorts in Amsterdam.",
+    description: "Learn about New Cohorts founders Pascal Brokmeier and Patrick Akil, our mission to build meaningful connections through structured 6-week cohorts in Amsterdam.",
     images: ["/og-about.jpg"],
   },
 };
