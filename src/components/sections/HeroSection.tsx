@@ -37,52 +37,51 @@ export function HeroSection() {
 
           {/* Main Headline - Static text instead of FlipWords */}
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-            Your{" "}
-            <span className="text-matcha">community</span>{" "}
+            Find your{" "}
+            <span className="text-matcha">people</span>{" "}
             in Amsterdam
           </h1>
           
           {/* Subheadline */}
-          <p className="text-xl text-gray-200 mb-8 leading-relaxed">
-            A 6-week journey with the same group of people.
-            <br />
-            Build lasting friendships through consistent connection,
-            <br />
-            not random meetups.
+          <p className="text-xl text-gray-200 mb-2 leading-relaxed">
+            Build real friendships in 6 weeks, not random meetups
+          </p>
+
+          <p className="text-base text-matcha font-semibold mb-8">
+            🚀 Launching January 2026 - Join our founding cohort
           </p>
 
           {/* CTA Button */}
           <div className="mb-8">
-            <Button 
-              size="lg" 
+            <Button
+              size="lg"
               className="bg-matcha hover:bg-matcha/90 text-white font-semibold px-8 py-4 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
               asChild
             >
               <a href={SOCIAL_LINKS.signup} target="_blank" rel="noopener noreferrer">
-                Join the Next Cohort
+                Reserve Your Founding Member Spot
               </a>
             </Button>
           </div>
 
           {/* Secondary Actions */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button 
-              variant="outline" 
+            <Button
+              variant="outline"
               className="bg-white/20 border-white/40 text-white hover:bg-white/30 hover:border-white/60 px-6 py-3 rounded-xl font-medium"
               asChild
             >
               <a href="/about">About</a>
             </Button>
-            <Button 
-              variant="outline" 
-              className="bg-white/20 border-white/40 text-white hover:bg-white/30 hover:border-white/60 px-6 py-3 rounded-xl font-medium"
-              asChild
+            <a
+              href={SOCIAL_LINKS.instagram}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-gray-300 hover:text-white transition-colors flex items-center gap-2"
             >
-              <a href={SOCIAL_LINKS.instagram} target="_blank" rel="noopener noreferrer">
-                <Instagram className="w-4 h-4 mr-2" />
-                Instagram
-              </a>
-            </Button>
+              <Instagram className="w-4 h-4" />
+              Follow on Instagram
+            </a>
           </div>
         </div>
       </div>

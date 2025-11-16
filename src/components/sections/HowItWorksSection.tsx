@@ -31,9 +31,9 @@ export function HowItWorksSection() {
             <div className="w-16 h-16 bg-matcha rounded-full flex items-center justify-center mx-auto mb-6">
               <span className="text-2xl font-bold text-white">3</span>
             </div>
-            <h3 className="text-xl font-semibold text-charcoal mb-4">Make the most of it</h3>
+            <h3 className="text-xl font-semibold text-charcoal mb-4">Host a peer event & celebrate</h3>
             <p className="text-gray-600">
-              Contribute your passions and ideas through peer events. And enjoy the journey with your new friends.
+              Lead a peer-led activity (could be anything from board games to cooking). Celebrate with your new friends at the closing dinner safari.
             </p>
           </div>
 

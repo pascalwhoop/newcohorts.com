@@ -10,9 +10,9 @@ export function AboutCTASection() {
         <h2 id="cta-heading" className="text-3xl md:text-4xl font-bold text-white mb-6">
           Ready to Join Us?
         </h2>
-        
+
         <p className="text-xl text-gray-200 mb-8">
-          If this resonates with you, we'd love to have you in our next cohort.
+          Pre-register for our January cohort and join the community chat early.
         </p>
         
         <Badge className="bg-white/90 text-slate-800 px-4 py-2 text-sm font-medium mb-8">
@@ -31,7 +31,7 @@ export function AboutCTASection() {
             rel="noopener noreferrer"
             aria-label="Apply for the next New Cohorts program"
           >
-            Apply for Next Cohort
+            Pre-register Now
           </Link>
         </Button>
       </div>
