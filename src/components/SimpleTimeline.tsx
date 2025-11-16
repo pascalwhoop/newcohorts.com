@@ -14,15 +14,15 @@ interface WeekData {
 const timelineData: WeekData[] = [
   {
     week: 1,
-    title: "Launch Party & Co-Create Your Experience",
-    description: "Get to know each other over pizza and help shape our final week's peer-led activities",
-    activities: ["3x 25min planning sessions", "30min plenary agenda presentation", "Pizza dinner", "Optional pub crawl"]
+    title: "Launch Event",
+    description: "Get to know each other over pizza and shape your evening conversations",
+    activities: ["3x 25min planning sessions", "30min plenary conversation rounds", "Pizza dinner", "Optional pub crawl"]
   },
   {
     week: 2,
     title: "Boat Cruise Adventure",
     description: "Explore Amsterdam from the water",
-    activities: ["City canal tour", "Group bonding on water", "Bond over Amsterdam's best-loved experiences", "Scenic photo opportunities"]
+    activities: ["City canal tour", "Bond over Amsterdam's best-loved experiences", "Scenic photo opportunities"]
   },
   {
     week: 3,
