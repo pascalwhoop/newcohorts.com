@@ -60,22 +60,22 @@ const defaultFAQs: FAQItem[] = [
 
 export function FAQSection({ faqs = defaultFAQs }: FAQSectionProps) {
   return (
-    <section className="py-20 px-4 bg-slate-50">
+    <section className="py-20 px-4 bg-card-white">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4 text-center">
+        <h2 className="text-3xl md:text-4xl font-serif text-charcoal-ink mb-4 text-center">
           Frequently Asked Questions
         </h2>
-        <p className="text-xl text-slate-600 mb-12 text-center">
+        <p className="text-xl text-faded-ink mb-12 text-center font-sans">
           Everything you need to know about New Cohorts
         </p>
         
         <Accordion type="single" collapsible className="w-full">
           {faqs.map((faq) => (
-            <AccordionItem key={faq.id} value={faq.id} className="bg-white rounded-lg mb-4 shadow-sm">
-              <AccordionTrigger className="px-6 py-4 text-left font-semibold text-slate-900 hover:text-matcha">
+            <AccordionItem key={faq.id} value={faq.id} className="bg-paper rounded-lg mb-4 border border-sand shadow-sm">
+              <AccordionTrigger className="px-6 py-4 text-left font-serif text-charcoal-ink hover:text-clay">
                 {faq.question}
               </AccordionTrigger>
-              <AccordionContent className="px-6 pb-4 text-slate-600 leading-relaxed">
+              <AccordionContent className="px-6 pb-4 text-faded-ink leading-relaxed font-sans">
                 {faq.answer}
               </AccordionContent>
             </AccordionItem>

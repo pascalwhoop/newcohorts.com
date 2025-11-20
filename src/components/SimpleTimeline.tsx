@@ -52,40 +52,40 @@ const timelineData: WeekData[] = [
 
 export function SimpleTimeline() {
   return (
-    <section className="py-16 px-4">
+    <section className="py-16 px-4 bg-card-white">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-white mb-4">
+          <h2 className="text-3xl font-serif text-charcoal-ink mb-4">
             Proposed 6-Week Journey
           </h2>
-          <p className="text-gray-300 text-lg max-w-2xl mx-auto">
+          <p className="text-faded-ink text-lg max-w-2xl mx-auto font-sans">
             Here's what we're planning. As a first cohort member, you'll vote on final activities and timing.
           </p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {timelineData.map((week) => (
-            <Card key={week.week} className="bg-slate-800/50 border-slate-700 hover:bg-slate-800/70 transition-colors">
+            <Card key={week.week} className="bg-paper border-sand hover:bg-sand/20 transition-colors">
               <CardHeader className="pb-3">
                 <div className="flex items-center justify-between mb-2">
-                  <Badge variant="secondary" className="bg-blue-600 text-white">
+                  <Badge variant="secondary" className="bg-forest text-paper font-sans">
                     Week {week.week}
                   </Badge>
                 </div>
-                <CardTitle className="text-white text-xl">
+                <CardTitle className="text-charcoal-ink text-xl font-serif">
                   {week.title}
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-300 mb-4">
+                <p className="text-faded-ink mb-4 font-sans">
                   {week.description}
                 </p>
                 <div className="space-y-2">
-                  <h4 className="text-sm font-semibold text-gray-200 mb-2">Activities:</h4>
+                  <h4 className="text-sm font-serif text-charcoal-ink mb-2">Activities:</h4>
                   <ul className="space-y-1">
                     {week.activities.map((activity, index) => (
-                      <li key={index} className="text-sm text-gray-400 flex items-center">
-                        <span className="w-1.5 h-1.5 bg-blue-500 rounded-full mr-2"></span>
+                      <li key={index} className="text-sm text-faded-ink flex items-center font-sans">
+                        <span className="w-1.5 h-1.5 bg-clay rounded-full mr-2"></span>
                         {activity}
                       </li>
                     ))}

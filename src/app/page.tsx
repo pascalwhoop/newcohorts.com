@@ -38,19 +38,21 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <div className="min-h-screen bg-gradient-to-br from-charcoal via-slate-800 to-charcoal">
-        <HeroSection />
-        <ProblemSolutionSection />
-        <HowItWorksSection />
-        <SimpleTimeline />
-        {/* <TestimonialSection /> */}
-        <FAQSection />
-        <FinalCTASection
-          title="Ready to Build Real Friendships?"
-          subtitle="Pre-register for our first cohort starting January 2026. Limited to 20-30 spots."
-          buttonText="Pre-register for January"
-        />
-      </div>
+      <main className="flex min-h-screen flex-col items-center justify-center p-4 bg-paper text-charcoal-ink">
+        <div className="w-full max-w-4xl bg-card-white rounded-xl shadow-lg p-8 md:p-12 border border-sand">
+          <HeroSection />
+          <ProblemSolutionSection />
+          <HowItWorksSection />
+          <SimpleTimeline />
+          {/* <TestimonialSection /> */}
+          <FAQSection />
+          <FinalCTASection
+            title="Ready to Build Real Friendships?"
+            subtitle="Pre-register for our first cohort starting January 2026. Limited to 20-30 spots."
+            buttonText="Pre-register for January"
+          />
+        </div>
+      </main>
     </>
   );
 }
