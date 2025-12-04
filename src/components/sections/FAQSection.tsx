@@ -53,6 +53,11 @@ const defaultFAQs: FAQItem[] = [
   },
   {
     id: "item-10",
+    question: "I have already been in Amsterdam for several years, can I still join?",
+    answer: "Yes! Everyone can join a cohort once, the main requirement is that you have chosen Amsterdam as the place to be for the forseeable future. If that is you, you are more than welcome!"
+  },
+  {
+    id: "item-11",
     question: "What if I pre-register and change my mind?",
     answer: "Zero pressure. Pre-registration just holds your spot and gets you into the community chat. You only commit once we share final details (pricing, exact dates, venues) in December."
   }
