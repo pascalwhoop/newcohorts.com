@@ -15,23 +15,23 @@ export function FinalCTASection({
   buttonHref = SOCIAL_LINKS.signup
 }: FinalCTASectionProps) {
   return (
-    <section className="py-20 px-4 bg-gradient-to-br from-charcoal via-slate-800 to-charcoal">
+    <section className="py-20 px-4 bg-paper">
       <div className="max-w-2xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+        <h2 className="text-3xl md:text-4xl font-serif text-charcoal-ink mb-6">
           {title}
         </h2>
 
-        <p className="text-xl text-gray-200 mb-6 whitespace-pre-line">
+        <p className="text-xl text-faded-ink mb-6 whitespace-pre-line font-sans">
           {subtitle}
         </p>
 
-        <p className="text-sm text-gray-300 mb-8">
+        <p className="text-sm text-faded-ink mb-8 font-sans">
           Early spots available. Limited pre-registration slots.
         </p>
 
         <Button
           size="lg"
-          className="bg-matcha text-white hover:bg-matcha/90 font-semibold px-8 py-4 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+          className="bg-clay text-paper hover:bg-clay/90 font-semibold px-8 py-4 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 font-sans"
           asChild
         >
           <a href={buttonHref} target="_blank" rel="noopener noreferrer">
