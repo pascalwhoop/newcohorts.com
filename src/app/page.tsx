@@ -14,7 +14,7 @@ const structuredData = {
   "url": SITE_CONFIG.url,
   "logo": SITE_CONFIG.logo,
   "sameAs": [
-    "https://instagram.com/newcohortscom"
+    "https://instagram.com/new.cohorts"
   ],
   "address": {
     "@type": "PostalAddress",
