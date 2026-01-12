@@ -47,8 +47,8 @@ export default function Home() {
         <FAQSection />
         <FinalCTASection
           title="Ready to Build Real Friendships?"
-          subtitle="Pre-register for our first cohort starting January 2026. Limited to 20-30 spots."
-          buttonText="Pre-register for January"
+          subtitle="We're recruiting in January. Our first cohort will launch once we have enough people committed. Target: February 2026 (TBD). We're launching on social media soon!"
+          buttonText="Pre-register Now"
         />
       </div>
     </>

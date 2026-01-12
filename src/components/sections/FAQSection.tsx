@@ -44,12 +44,12 @@ const defaultFAQs: FAQItem[] = [
   {
     id: "item-8",
     question: "What's the investment?",
-    answer: "We're finalizing pricing based on venue partnerships and activity costs. Our first cohort will get the best rate (20-30% off future pricing). We'll share pricing in mid-December, and you can decide then if you want to confirm your spot. No commitment now."
+    answer: "€150 for our first cohort. Our founding members get the best rate. This investment covers all 6 activities, venues, and the facilitated experience. You'll only pay once we confirm the cohort is launching."
   },
   {
     id: "item-9",
-    question: "Is this definitely happening?",
-    answer: "Yes! We're launching January 2026 with our founding cohort. We need 25 confirmed members to proceed. If we don't hit that number, we'll refund everyone and reschedule. Currently we have a growing number of pre-registrations."
+    question: "When will the first cohort start?",
+    answer: "We're recruiting throughout January 2026. Our first cohort will launch once we have a minimum number of committed members. Our target is February 2026, but the exact start date depends on when we reach our threshold. We're launching our social media push in the coming weeks to recruit!"
   },
   {
     id: "item-10",
@@ -59,7 +59,7 @@ const defaultFAQs: FAQItem[] = [
   {
     id: "item-11",
     question: "What if I pre-register and change my mind?",
-    answer: "Zero pressure. Pre-registration just holds your spot and gets you into the community chat. You only commit once we share final details (pricing, exact dates, venues) in December."
+    answer: "Zero pressure. Pre-registration just gets you into our community and updates. You only commit to payment once we confirm the cohort is launching. No money taken until we have our minimum group size."
   }
 ];
 

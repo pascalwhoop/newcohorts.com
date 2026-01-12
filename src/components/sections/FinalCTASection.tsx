@@ -9,8 +9,8 @@ interface FinalCTASectionProps {
 }
 
 export function FinalCTASection({
-  title = "First cohort starts January 2026",
-  subtitle = "Pre-register now. Join our private community chat and connect with your future cohort before January.",
+  title = "Ready to Build Real Friendships?",
+  subtitle = "We're recruiting in January. Our first cohort will launch once we have enough people committed. Target: February 2026 (TBD). We're launching on social media soon!",
   buttonText = "Pre-register Now",
   buttonHref = SOCIAL_LINKS.signup
 }: FinalCTASectionProps) {
