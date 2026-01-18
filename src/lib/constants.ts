@@ -8,7 +8,7 @@ export const SITE_CONFIG = {
 
 export const SOCIAL_LINKS = {
   instagram: "https://sink.newcohorts.com/instagram",
-  signup: "https://sink.newcohorts.com/early-access",
+  signup: "/early-access",
 } as const;
 
 export const PROGRAM_DETAILS = {
