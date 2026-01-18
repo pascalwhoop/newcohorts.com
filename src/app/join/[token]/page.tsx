@@ -105,14 +105,11 @@ export default function JoinPage() {
 
         <Button
           onClick={handleWhatsappClick}
-          className="w-full bg-matcha text-white hover:bg-matcha/90 font-semibold px-8 py-3 text-lg rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+          className="w-full bg-matcha text-white hover:bg-matcha/90 font-semibold px-8 py-3 text-lg rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2"
         >
           Join WhatsApp Group
         </Button>
 
-        <p className="text-xs text-slate-400 mt-6">
-          Can't open WhatsApp? You've been added to our group!
-        </p>
       </div>
     </main>
   );
