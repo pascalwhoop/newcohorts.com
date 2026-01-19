@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { useForm } from "react-hook-form";
+import { useForm, Controller } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { earlyAccessSchema, type EarlyAccessFormData } from "@/lib/validation";
 import { Button } from "@/components/ui/button";
@@ -30,15 +30,19 @@ export function EarlyAccessForm() {
     formState: { errors },
     watch,
     setValue,
+    control,
+    trigger,
   } = useForm<EarlyAccessFormData>({
     resolver: zodResolver(earlyAccessSchema),
+    mode: "onSubmit",
+    reValidateMode: "onChange",
+    criteriaMode: "all",
   });
 
   const selectedCity = watch("city");
 
   // Show custom city input when "Other" is selected
   const handleCityChange = (value: string) => {
-    setValue("city", value);
     setShowCustomCity(value === "Other");
     if (value !== "Other") {
       setValue("customCity", "");
@@ -161,18 +165,31 @@ export function EarlyAccessForm() {
         <Label htmlFor="city" className="text-white">
           What city are you moving to? <span className="text-red-500">*</span>
         </Label>
-        <Select value={selectedCity} onValueChange={handleCityChange}>
-          <SelectTrigger className="bg-slate-700 border-slate-600 text-white">
-            <SelectValue placeholder="Select a city" />
-          </SelectTrigger>
-          <SelectContent>
-            {CITIES.map((city) => (
-              <SelectItem key={city} value={city}>
-                {city}
-              </SelectItem>
-            ))}
-          </SelectContent>
-        </Select>
+        <Controller
+          name="city"
+          control={control}
+          render={({ field }) => (
+            <Select
+              value={field.value || ""}
+              onValueChange={(value) => {
+                field.onChange(value);
+                handleCityChange(value);
+              }}
+              disabled={isLoading}
+            >
+              <SelectTrigger className="bg-slate-700 border-slate-600 text-white">
+                <SelectValue placeholder="Select a city" />
+              </SelectTrigger>
+              <SelectContent>
+                {CITIES.map((city) => (
+                  <SelectItem key={city} value={city}>
+                    {city}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          )}
+        />
         {errors.city && (
           <p className="text-red-400 text-sm">{errors.city.message}</p>
         )}

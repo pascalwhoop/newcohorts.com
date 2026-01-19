@@ -76,9 +76,6 @@ export default function JoinPage() {
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-charcoal via-slate-800 to-charcoal flex items-center justify-center px-4">
-      <head>
-        <meta name="robots" content="noindex, nofollow" />
-      </head>
       <div className="text-center max-w-md">
         <div className="bg-matcha/20 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
           <svg

@@ -97,8 +97,8 @@ export async function validateToken(token: string): Promise<boolean> {
   try {
     console.log("Validating token:", token);
 
-    const response = await client.request({
-      method: "POST",
+    const response = await client.request<{ results: Array<{ id: string }> }>({
+      method: "post",
       path: `databases/${databaseId}/query`,
       body: {
         filter: {

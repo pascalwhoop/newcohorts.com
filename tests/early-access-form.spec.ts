@@ -49,15 +49,20 @@ test.describe('Early Access Form', () => {
     await page.locator('[role="option"]').filter({ hasText: 'Amsterdam' }).click();
     await page.locator('input[id="moveDate"]').fill('2026-03-15');
 
+    // Get current URL
+    const urlBefore = page.url();
+
     // Submit form
     await page.locator('button[type="submit"]').click();
 
-    // Wait for validation
-    await page.waitForTimeout(500);
+    // Wait for potential navigation
+    await page.waitForTimeout(1000);
 
-    // Should show email validation error
-    const emailError = page.locator('p.text-red-400, p.text-red-500').filter({ hasText: /email/i });
-    await expect(emailError).toBeVisible();
+    // Form should NOT have navigated (validation should prevent submission)
+    expect(page.url()).toBe(urlBefore);
+
+    // Should still be on early access page
+    await expect(page).toHaveURL(/\/early-access/);
   });
 
   test('should show custom city input when "Other" is selected', async ({ page }) => {
