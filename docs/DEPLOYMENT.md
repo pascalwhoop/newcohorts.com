@@ -26,7 +26,7 @@
 4. Go to **Settings → Environment Variables**
 5. Add each variable:
    - Set `NOTION_API_KEY` and `NOTION_DATABASE_ID` as **Encrypted**
-   - Set `NEXT_PUBLIC_WHATSAPP_URL` as **Plain text**
+   - Set `NEXT_PUBLIC_WHATSAPP_URL` as **Plain text** (note this needs to be set in "Build" section)
 6. Click **Save**
 
 **Important:** Wrangler CLI does not support setting environment variables for Pages projects. You must use the dashboard.
