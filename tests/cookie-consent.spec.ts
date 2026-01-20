@@ -8,6 +8,10 @@ test.describe('Cookie Consent', () => {
     // Clear localStorage and cookies before each test
     await context.clearCookies();
     await page.goto('/');
+    // Explicitly clear localStorage
+    await page.evaluate(() => localStorage.clear());
+    // Reload to apply the cleared state
+    await page.reload();
     // Wait for page to load
     await page.waitForLoadState('networkidle');
   });

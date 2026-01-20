@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh pr create:*)",
+      "Bash(npx playwright test:*)",
+      "Bash(npx playwright install:*)",
+      "Bash(git add:*)",
+      "WebSearch",
+      "WebFetch(domain:developers.notion.com)",
+      "Bash(node:*)",
+      "Bash(wrangler pages project --help:*)",
+      "Bash(wrangler pages deployment --help:*)",
+      "Bash(wrangler --help:*)",
+      "WebFetch(domain:developers.cloudflare.com)",
+      "Bash(npm run build:*)",
+      "Bash(lsof:*)",
+      "Bash(xargs kill:*)"
+    ]
+  }
+}
