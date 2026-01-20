@@ -11,5 +11,12 @@
   },
   "build": {
     "command": "npm run build:cf"
+  },
+  "observability": {
+    "enabled": true
+  },
+  "vars":{
+    "NOTION_DATABASE_ID": "2ec36318208780118b57df97b00a5d20"
   }
+  
 }

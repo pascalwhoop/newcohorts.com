@@ -9,7 +9,9 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    
+    env:
+      NEXT_PUBLIC_WHATSAPP_URL: https://chat.whatsapp.com/K1NMPN0ewNx2YpY7lXKaSD
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
